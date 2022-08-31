@@ -19,7 +19,8 @@ main {
         padding-top: 10px;
 
         .anchor {
-            top:0.5rem;
+            display:none;
+        /*    top:0.5rem;
             text-decoration: none;
             position:absolute;
             left:-1rem;
@@ -30,7 +31,7 @@ main {
 
         .anchor:hover {
             color: $darkGrey;
-        }
+        }*/
     }
 }
 
