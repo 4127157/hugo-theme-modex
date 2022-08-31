@@ -125,6 +125,43 @@ main {
   margin-top: 0.25rem;
 }
 
+.about__content{
+    ul{
+        list-style: none;
+
+        li {
+            margin-bottom: 0.5rem;
+
+            &::before{
+                content: "-";
+                color: $darkGrey;
+                position:absolute;
+                margin-left: -15px;
+            }
+        }
+    }
+}
+
+.twitter-tweet.twitter-tweet-rendered {
+    margin: 1.5rem auto !important;
+    width: 375px !important;
+}
+
+table {
+    max-width: 100%;
+    border-spacing: 0;
+
+    thead {
+        background: $lightGrey;
+    }
+
+    th,
+    td {
+        padding: 0.5em 1em;
+        border: 1px double $greyTableBorder;
+    }
+}
+
 .social-icons{
     justify-content: flex-start;
     padding-top: 1rem;
@@ -142,3 +179,5 @@ footer {
         font-size: 0.65rem;
     }
 }
+
+
