@@ -13,6 +13,25 @@ main {
     width: 100%;
     max-width: 42rem;
     margin: 0 auto;
+
+    h2, h3 {
+        position: relative;
+        padding-top: 10px;
+
+        .anchor {
+            top:0.5rem;
+            text-decoration: none;
+            position:absolute;
+            left:-1rem;
+            color: $grey;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        .anchor:hover {
+            color: $darkGrey;
+        }
+    }
 }
 
 .social-icons{
