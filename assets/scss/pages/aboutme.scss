@@ -47,6 +47,37 @@ main {
     margin-bottom: 0.5rem;
 }
 
+.tags__list {
+    padding-right: 1.5rem;
+    margin: 1.5rem 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tag__item {
+    margin-right: 1rem;
+    display: inline-block;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.tag__link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    background: lighten($primary, 41%);
+    color: $primary;
+    font-size: 0.8rem;
+
+    &:hover {
+        background: lighten($primary, 38%);
+    }
+}
+
 .social-icons{
     justify-content: flex-start;
     padding-top: 1rem;
