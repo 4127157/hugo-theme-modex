@@ -20,20 +20,31 @@ main {
 
         .anchor {
             display:none;
-        /*    top:0.5rem;
-            text-decoration: none;
-            position:absolute;
-            left:-1rem;
-            color: $grey;
-            font-size: 1.2rem;
-            font-weight: 400;
-        }
-
-        .anchor:hover {
-            color: $darkGrey;
-        }*/
         }
     }
+
+    blockquote {
+        width:95%;
+        margin:0 auto;
+        font-size: 1rem;
+
+        a {
+            color: $darkGrey;
+            text-decoration: underline;
+        }
+    }
+
+    img {
+        width:100;
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.about__title {
+    margin-top:0;
+    margin-bottom: 0.5rem;
 }
 
 .social-icons{
