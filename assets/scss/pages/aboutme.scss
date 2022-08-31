@@ -7,6 +7,11 @@ $tocBreakpoint: 1024px;
     display:flex;
 }
 
+.about__container {
+    flex-grow:1;
+    min-width:0;
+}
+
 main {
     padding-top: 0;
     padding-bottom: 0;
