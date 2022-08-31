@@ -3,6 +3,12 @@
 
 $tocBreakpoint: 1024px;
 
+main {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+}
+
 .social-icons{
     justify-content: flex-start;
     padding-top: 1rem;
